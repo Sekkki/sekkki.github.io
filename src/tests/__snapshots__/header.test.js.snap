@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders without crashing 1`] = `
+<withCookies(header)>
+  <withCookies(header)
+    cookies={
+      Cookies {
+        "HAS_DOCUMENT_COOKIE": false,
+        "changeListeners": Array [
+          [Function],
+        ],
+        "cookies": Object {},
+      }
+    }
+    forwardedRef={null}
+  >
+    <header
+      allCookies={Object {}}
+      cookies={
+        Cookies {
+          "HAS_DOCUMENT_COOKIE": false,
+          "changeListeners": Array [
+            [Function],
+          ],
+          "cookies": Object {},
+        }
+      }
+    >
+      <header
+        className="header"
+      >
+        <div
+          className="brand"
+        >
+          <p>
+            Hyppnotic
+            <span>
+              store.
+            </span>
+          </p>
+        </div>
+        <div
+          className="menu"
+        >
+          <ul>
+            <li>
+              Каталог
+            </li>
+            <li>
+              О нас
+            </li>
+            <li>
+              Помощь
+            </li>
+            <li>
+              Поддержка
+            </li>
+          </ul>
+        </div>
+        <Helper>
+          <div
+            className="helper-wrapper"
+          >
+            <div
+              className="helper-container"
+            >
+              <div
+                className="helper"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-arrow-left"
+                />
+              </div>
+              <div
+                className="helper-button"
+              >
+                <i
+                  className="fas fa-sign-in-alt"
+                />
+                <i
+                  className="fas fa-palette"
+                />
+                <i
+                  className="fas fa-ruble-sign"
+                />
+                <i
+                  className="fas fa-balance-scale"
+                />
+              </div>
+            </div>
+          </div>
+        </Helper>
+        <menu
+          setShow={[Function]}
+          show={false}
+        >
+          <div
+            className="mobile-menu-container"
+          >
+            <div
+              className="mobile-menu"
+            >
+              <div
+                className="mobile-menu-brand"
+              >
+                Hyppnotic
+              </div>
+              <div
+                className="mobile-menu-button"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-times"
+                />
+              </div>
+              <div
+                className="mobile-menu-links"
+              >
+                Links
+              </div>
+            </div>
+          </div>
+        </menu>
+        <div
+          className="button-xs"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-bars"
+          />
+        </div>
+      </header>
+    </header>
+  </withCookies(header)>
+</withCookies(header)>
+`;
